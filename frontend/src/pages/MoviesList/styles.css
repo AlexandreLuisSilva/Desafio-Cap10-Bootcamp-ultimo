@@ -1,0 +1,29 @@
+.movie-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  color: #ffffff;
+  margin-top: 0 !important;
+  padding: 20px 12px;
+}
+
+
+.movie-list-search-container {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.list-row-card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-list-pagination {
+  margin-top: 15px;
+}
+
+@media(min-width: 576px) {
+  .movie-list-container {
+    padding: 20px;
+  }
+}
